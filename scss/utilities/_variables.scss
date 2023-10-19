@@ -1,21 +1,5 @@
-//Descriptive color variables
-$grey : #755;
-$white : #ffffff; 
-$blue : #58e1c1;
-$green: #51deef;
-$light-grey : #ccc;
-$black : #000;
-$light-red : #e4757a;
-$purple : #927ab2;
-$green: #63bb85;
-$coral-orange : #f8872e;
-$violet : #dda2ee;
-$light-blue : #7ed5ec;
-$granny : #88e9b0;
-$denim: #6e8daf;
-$flamingo : #fda4ba;
-$coral : #f88379;
-$turquoise : #40e0d0;
+
+
 
 //Functional color variables
 $color-prim : $blue;
@@ -57,15 +41,28 @@ $color-column-background11 : $light-green;
 $color-column-background12 : $turquoise;
 
 //Font stacks   
-$sans-serif : sans-serif;
-$stack-lato : 'Lato', $sans-serif;
+$font-stack: "Neue Helvetica", Helvetica, sans-serif;
+$heading-stack: "Neue Helvetica Thin", Helvetica, sans-serif;
 
+//colors
 
 //Breakpoints
 $breakpoint-md : 768px;
+$grey : #755;
+$white : #ffffff; 
+$blue : #58e1c1;
+$green: #51deef;
+$light-grey : #ccc;
+$black : #000;
+$light-red : #e4757a;
+$purple : #927ab2;
+$green: #63bb85;
+$coral-orange : #f8872e;
+$violet : #dda2ee;
+$light-blue : #7ed5ec;
+$granny : #88e9b0;
+$denim: #6e8daf;
+$flamingo : #fda4ba;
+$coral : #f88379;
+$turquoise : #40e0d0;
 
-//Percentage Values
-$hover-lighten-percent: 15%;
-
-//Grid Columns 
-$grid-cols: 12;
