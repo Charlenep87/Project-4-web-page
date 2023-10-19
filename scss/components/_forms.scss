@@ -1,0 +1,15 @@
+.form {
+  @include flexbox;
+  @include media {
+    width: 33%;
+  }
+}
+
+  
+  .input{
+    @include block;
+    width: 100;
+    margin: 20px auto 0;
+    padding: 10px;
+    border-bottom: 10px solid $color-border-prim;
+  }

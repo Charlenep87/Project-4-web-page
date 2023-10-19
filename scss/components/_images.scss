@@ -1,0 +1,15 @@
+.img-avatar {
+  @extend %img;
+  max-height: 100%;
+}
+
+.img-frame {
+  @extend %img;
+  padding: 15px;
+  border: 1px solid $color-border-light;
+}
+
+.img-logo {
+  @include block;
+  @include center;
+}

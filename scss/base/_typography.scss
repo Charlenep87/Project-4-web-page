@@ -1,0 +1,46 @@
+
+* {
+    font-family: $font-stack;
+    color: $color-text-base;
+    box-sizing: border-box;
+  }
+  
+  p {
+    line-height: 1.45em;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  /* ============================================= */
+  /*              Typography                       */
+  /* ============================================= */
+  .headline {
+    &-primary {
+      color: $color-text-prim;
+      margin-left: 10px;
+    }
+    
+    &-secondary {
+      font-weight: 400;
+      color: $color-text-base;
+    }
+  }
+  
+  .link {
+    color: $color-link-sec;
+    font-weight: 700;
+  }
+  
+  .blockquote {
+    font-size: 1.5em;
+    font-weight: 300;
+    font-style: italic;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 8px solid $color-border-prim;
+    border-radius: $br;
+  }
+  

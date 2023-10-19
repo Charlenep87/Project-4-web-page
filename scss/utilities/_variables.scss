@@ -1,0 +1,71 @@
+//Descriptive color variables
+$grey : #755;
+$white : #ffffff; 
+$blue : #58e1c1;
+$green: #51deef;
+$light-grey : #ccc;
+$black : #000;
+$light-red : #e4757a;
+$purple : #927ab2;
+$green: #63bb85;
+$coral-orange : #f8872e;
+$violet : #dda2ee;
+$light-blue : #7ed5ec;
+$granny : #88e9b0;
+$denim: #6e8daf;
+$flamingo : #fda4ba;
+$coral : #f88379;
+$turquoise : #40e0d0;
+
+//Functional color variables
+$color-prim : $blue;
+$color-sec : $light-green;
+
+$color-text-light : $white;
+$color-text-base : $grey;
+$color-text-dark : $black;
+$color-text-prim : $blue;
+$color-text-sec : $light-green;
+
+
+$color-link-default : $grey;
+$color-link-hover : $white;
+$color-link-prim : $blue;
+$color-link-sec : $light-green;
+
+$color-border-light : $light-grey;
+$color-border-prim : $blue;
+$color-border-sec : $light-green;
+
+$color-button-default : $light-green;
+$color-button-error : $light-red;
+$color-button-info : $purple;
+$color-button-success : $light-green;
+$color-button-warning : $coral-orange;
+
+$color-column-background1 : $purple;
+$color-column-background2 : $coral-orange;
+$color-column-background3 : $violet;
+$color-column-background4 : $light-blue;
+$color-column-background5 : $granny;
+$color-column-background6 : $boston-blue;
+$color-column-background7 : $flamingo;
+$color-column-background8 : $coral;
+$color-column-background9 : $light-red;
+$color-column-background10 : $light-green;
+$color-column-background11 : $light-green;
+$color-column-background12 : $turquoise;
+
+//Font stacks   
+$sans-serif : sans-serif;
+$stack-lato : 'Lato', $sans-serif;
+
+
+//Breakpoints
+$breakpoint-md : 768px;
+
+//Percentage Values
+$hover-lighten-percent: 15%;
+
+//Grid Columns 
+$grid-cols: 12;
