@@ -1,15 +1,19 @@
-.img-avatar {
-  @extend %img;
-  max-height: 100%;
-}
 
-.img-frame {
-  @extend %img;
-  padding: 15px;
-  border: 1px solid $color-border-light;
-}
 
 .img-logo {
   @include block;
   @include center;
+}
+
+
+.img-frame {
+
+  padding: 20px;
+  border: 5px groove $light-grey;
+}
+
+
+.img-avatar {
+  padding: 40px;
+  
 }

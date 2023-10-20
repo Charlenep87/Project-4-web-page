@@ -1,15 +1,15 @@
 //colors
 
-$breakpoint-md : 768px;
+
 $grey : #755;
 $white : #ffffff; 
 $blue : #58e1c1;
-$green: #51deef;
+$light-green: #51deef;
 $light-grey : #ccc;
 $black : #000;
 $light-red : #e4757a;
-$purple : #927ab2;
-$green: #63bb85;
+$purple : #592693;
+$light-green: #63bb85;
 $coral-orange : #f8872e;
 $violet : #dda2ee;
 $light-blue : #7ed5ec;
@@ -40,7 +40,7 @@ $color-border-light : $light-grey;
 $color-border-prim : $blue;
 $color-border-sec : $light-green;
 
-$color-button-default : $light-green;
+$color-button-default : $light-blue;
 $color-button-error : $light-red;
 $color-button-info : $purple;
 $color-button-success : $light-green;
@@ -51,7 +51,7 @@ $color-column-background2 : $coral-orange;
 $color-column-background3 : $violet;
 $color-column-background4 : $light-blue;
 $color-column-background5 : $granny;
-$color-column-background6 : $boston-blue;
+$color-column-background6 : $denim;
 $color-column-background7 : $flamingo;
 $color-column-background8 : $coral;
 $color-column-background9 : $light-red;
@@ -63,5 +63,15 @@ $color-column-background12 : $turquoise;
 $font-stack: "Neue Helvetica", Helvetica, sans-serif;
 $heading-stack: "Neue Helvetica Thin", Helvetica, sans-serif;
 
+$br : 10px;
+
+
+$breakpoint-md : 768px;
+
+
+$hover-lighten-percent: 15%;
+
+ 
+$grid-cols: 12;
 
 

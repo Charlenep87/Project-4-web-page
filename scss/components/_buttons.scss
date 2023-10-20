@@ -1,8 +1,53 @@
-@each $name, $color in $btn-colors {
-  .btn--#{$name} {
-    @include button;
-    &.theme__colors {
-      background-color: map-get($btn-colors, $name);
+.btn {
+  margin-top: 20px;
+  width: 100%;
+  color: $white;
+    border: none;
+  text-transform: uppercase;
+  border-radius: $br;
+  transition: background-color 0.2s ease-in-out;
+}
+
+//.link {
+//     background-color: $color-button-default;
+//    border: none;
+//    &:hover {
+//      background-color: ($color-button-default, $hover-lighten-percent);
+//    }
+//}
+
+.default {
+    background-color: $color-button-default;
+    border: none;
+    &:hover {
+      background-color: ($color-button-default, $hover-lighten-percent);
     }
   }
-}
+  
+.error {
+    background-color: $color-button-error;
+    &:hover {
+      background-color: lighten($color-button-error, $hover-lighten-percent);
+    }
+  }
+  
+.info {
+    background-color: $color-button-info;
+    &:hover {
+      background-color: lighten($color-button-info, $hover-lighten-percent);
+    }
+  }
+  
+.success {
+    background-color: $color-button-success;
+    &:hover {
+      background-color: lighten($color-button-success, $hover-lighten-percent);
+    }
+  }
+  
+.warning {
+    background-color: $color-button-warning;
+    &:hover {
+      background-color: lighten($color-button-warning, $hover-lighten-percent);
+    }
+  }

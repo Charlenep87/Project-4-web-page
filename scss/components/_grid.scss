@@ -1,4 +1,21 @@
-//theme for columns
+.container {
+    padding: 0 10px;
+  }
+  
+  .row {
+    @include flex;
+    flex-direction: column;
+    padding: 1em 10px;
+  }
+  
+  [class^=col] {
+    margin-top: 10px;
+    flex-basis: 100%;
+    min-height: 25px;
+    padding: 10px;
+    border-radius: $br;
+  }
+
   .theme.col-1 {
     background-color: $color-column-background1;
   }
@@ -49,22 +66,4 @@
 
   .card {
     flex-basis: 100%;
-  }
-
-.container {
-    padding: 0 10px;
-  }
-  
-  .row {
-    @include flex;
-    flex-direction: column;
-    padding: 2em 20px;
-  }
-  
-  [class^=col] {
-    margin-top: 20px;
-    flex-basis: 100%;
-    min-height: 25px;
-    padding: 10px;
-   
   }
