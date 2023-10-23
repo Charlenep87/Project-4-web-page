@@ -5,25 +5,6 @@
     @include block;
     @include center;
   }
-    
-
-  
-  .nav {
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  
-
-  .btn {
-    padding: 20px 40px;
-  }
-  
-  .btn + .btn {
-    margin-left: 20px
-  }
-  
-  }
   
   .centered {
     @include block;
@@ -51,3 +32,28 @@
       flex-basis: percent($i, $grid-cols);
     }
 }
+
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .nav-link {
+    flex-basis: 100px;
+  }
+  
+  .btn {
+    padding: 10px 30px;
+  }
+  
+  .btn + .btn {
+    margin-left: 10px;
+  }
+  
+  .logo {
+    margin-left: initial;
+    margin-right: initial;
+  }
+  
+  }

@@ -1,7 +1,7 @@
 
 .nav {
-    padding-left: 0;
-    flex-basis: 100%;
+   
+    flex-basis: 90%;
     @include flex;
     flex-direction: column;
   }
@@ -13,11 +13,13 @@
     @include block;
     width: 100%;
     transition: 
-      background-color .2s ease-in-out, 
-      color .2s ease-in-out;
+      background-color .5s ease-out, 
+      color .5s ease-out;
       &:hover {
         color: $color-link-hover;
         background-color: $color-prim;
       }
   }
+
+  
   
